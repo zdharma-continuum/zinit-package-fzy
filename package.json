@@ -40,7 +40,7 @@
     "fuzzy"
   ],
   "license": "MIT",
-  "name": "fzy",
+  "name": "zsh-fzy",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jhawthorn/fzy.git"
