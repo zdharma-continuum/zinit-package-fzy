@@ -1,0 +1,69 @@
+{
+  "_from": "fzy@^1.0.0",
+  "_id": "zsh-fzy@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=",
+  "_location": "/zsh-fzy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "fzy@^1.0.0",
+    "name": "fzy",
+    "escapedName": "fzy",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [],
+  "_resolved": "https://github.com/jhawthorn/fzy/releases/download/1.0/fzy-1.0.tar.gz",
+  "_shasum": "f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8",
+  "_spec": "fzy@^1.0.0",
+  "_where": "/root/github/fzy-pkg",
+  "author": "John Hawthorn",
+  "bugs": {
+    "url": "https://github.com/jhawthorn/fzy/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A better fuzzy finder",
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/jhawthorn/fzy",
+  "keywords": [
+    "fuzzy finder",
+    "fuzzy search",
+    "fuzzy searching",
+    "fuzzy"
+  ],
+  "license": "MIT",
+  "name": "fzy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhawthorn/fzy.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.0.0",
+  "zplugin-ices": {
+    "default": {
+      "wait": "1",
+      "lucid": "1",
+      "as": "program",
+      "pick": "$ZPFX/bin/fzy*",
+      "atclone": "cp contrib/fzy-* $ZPFX/bin/",
+      "make": "!PREFIX=$ZPFX install"
+    },
+    "bgn": {
+      "wait": "1",
+      "lucid": "1",
+      "as": "null",
+      "make": "",
+      "sbin": "fzy;contrib/fzy-*"
+    }
+  }
+}
