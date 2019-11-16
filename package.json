@@ -17,7 +17,7 @@
   },
   "_requiredBy": [],
   "_resolved": "https://github.com/jhawthorn/fzy/releases/download/1.0/fzy-1.0.tar.gz",
-  "_shasum": "f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8",
+  "_shasum": "d5a7a25e61ab4fb33f2d176775ebf338c48ce61c",
   "_spec": "fzy@^1.0.0",
   "_where": "/root/github/fzy-pkg",
   "author": "John Hawthorn",
