@@ -48,24 +48,24 @@
   "scripts": {
     "test": "make test"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "zsh-data": {
-      "zplugin-ices": {
-        "default": {
-          "wait": "1",
-          "lucid": "1",
-          "as": "program",
-          "pick": "$ZPFX/bin/fzy*",
-          "atclone": "cp contrib/fzy-* $ZPFX/bin/",
-          "make": "!PREFIX=$ZPFX install"
-        },
-        "bgn": {
-          "wait": "1",
-          "lucid": "1",
-          "as": "null",
-          "make": "",
-          "sbin": "fzy;contrib/fzy-*"
-        }
+    "zplugin-ices": {
+      "default": {
+        "wait": "1",
+        "lucid": "1",
+        "as": "program",
+        "pick": "$ZPFX/bin/fzy*",
+        "atclone": "cp contrib/fzy-* $ZPFX/bin/",
+        "make": "!PREFIX=$ZPFX install"
+      },
+      "bgn": {
+        "wait": "1",
+        "lucid": "1",
+        "as": "null",
+        "make": "",
+        "sbin": "fzy;contrib/fzy-*"
       }
+    }
   }
 }
