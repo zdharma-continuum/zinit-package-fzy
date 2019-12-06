@@ -56,15 +56,13 @@
     },
     "zplugin-ices": {
       "default": {
-        "wait": "1",
         "lucid": "",
         "as": "program",
         "pick": "$ZPFX/bin/fzy*",
         "atclone": "cp contrib/fzy-* $ZPFX/bin/",
-        "make": "!PREFIX=$ZPFX install"
+        "make": "PREFIX=$ZPFX install"
       },
       "bgn": {
-        "wait": "1",
         "lucid": "",
         "as": "null",
         "make": "",
