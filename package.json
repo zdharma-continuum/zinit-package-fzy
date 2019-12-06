@@ -50,6 +50,8 @@
   },
   "version": "1.0.4",
   "zsh-data": {
+    "user": "jhawthorn",
+    "plugin": "fzy",
     "zplugin-ices": {
       "default": {
         "wait": "1",
