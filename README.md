@@ -23,6 +23,9 @@ zplugin pack"bgn" for fzy
 
 # Download with the bin-gem-node annex-utilizing ice list FROM GIT REPOSITORY
 zplugin pack"bgn" git for fzy
+
+# Download normal ice list and override atclone'' ice to skip the contrib scripts
+zplugin pack"bgn" atclone'' for fzy
 ```
 
 ## Default Profile
