@@ -3,8 +3,8 @@
 ##### NPM link: [https://www.npmjs.com/package/zsh-fzy](https://www.npmjs.com/package/zsh-fzy)
 
 | **Package source:** | Tarball | Git | Node | Gem |
-|---------------------|---------|-----|------|-----|
-| **Status:**         |    +    |  +  |  –   |  –  |
+|:-------------------:|:-------:|:---:|:----:|:---:|
+| **Status:**         |    + <br> (default) | + | – |  –  |
 
 [Zplugin](https://github.com/zdharma/zplugin) can use the NPM package registry to automatically:
 
