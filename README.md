@@ -1,7 +1,5 @@
 # jhawthorn/fzy as a Zsh package
 
-##### NPM link: [https://www.npmjs.com/package/zsh-fzy](https://www.npmjs.com/package/zsh-fzy)
-
 ##### Homepage link: [jhawthorn/fzy](https://github.com/jhawthorn/fzy)
 
 | **Package source:** | Tarball | Git | Node | Gem |
